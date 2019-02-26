@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Feb 12, 2019 11:04 AM",
+        "testExecutionTime": "238 ms",
+        "testTotalTime": "238 ms",
+        "commandTime": "25498 ms",
+        "hostname": "https://ap8.salesforce.com",
+        "orgId": "00D0o0000017fTLEAY",
+        "username": "pitambar@javra.com",
+        "testRunId": "7070o0000BSwjZO",
+        "userId": "0050o00000W63OuAAJ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M0o000006aaJKEAY"
+            },
+            "Id": "07M0o000006aaJKEAY",
+            "QueueItemId": "7090o000001DrtRAAS",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7070o0000BSwjZOAQZ",
+            "MethodName": "AssignTaskToAccount",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0o00000B8WDvAAN"
+                },
+                "Id": "01p0o00000B8WDvAAN",
+                "Name": "AssignTaskAccountTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 238,
+            "FullName": "AssignTaskAccountTest.AssignTaskToAccount"
+        }
+    ]
+}

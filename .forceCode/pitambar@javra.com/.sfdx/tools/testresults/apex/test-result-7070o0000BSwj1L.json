@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Feb 12, 2019 10:32 AM",
+        "testExecutionTime": "56 ms",
+        "testTotalTime": "56 ms",
+        "commandTime": "24263 ms",
+        "hostname": "https://ap8.salesforce.com",
+        "orgId": "00D0o0000017fTLEAY",
+        "username": "pitambar@javra.com",
+        "testRunId": "7070o0000BSwj1L",
+        "userId": "0050o00000W63OuAAJ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M0o000006aaIgEAI"
+            },
+            "Id": "07M0o000006aaIgEAI",
+            "QueueItemId": "7090o000001DrtCAAS",
+            "StackTrace": "Class.HelloWorldTest.updateLead: line 9, column 1",
+            "Message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [Company]: [Company]",
+            "AsyncApexJobId": "7070o0000BSwj1LAQR",
+            "MethodName": "updateLead",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0o00000B8VADAA3"
+                },
+                "Id": "01p0o00000B8VADAA3",
+                "Name": "HelloWorldTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 56,
+            "FullName": "HelloWorldTest.updateLead"
+        }
+    ]
+}
