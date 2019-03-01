@@ -15,7 +15,7 @@ global class Campaign {
     global List<AttachedContentNote> AttachedContentNotes;
     global List<Attachment> Attachments;
     global Decimal BudgetedCost;
-    global List<ListEmailChangeEvent> Campaign;
+    global List<OpportunityChangeEvent> Campaign;
     global RecordType CampaignMemberRecordType;
     global Id CampaignMemberRecordTypeId;
     global List<CampaignMemberStatus> CampaignMemberStatuses;
@@ -59,7 +59,7 @@ global class Campaign {
     global List<Opportunity> Opportunities;
     global User Owner;
     global Id OwnerId;
-    global List<FeedComment> Parent;
+    global List<FeedItem> Parent;
     global Id ParentId;
     global List<ProcessInstance> ProcessInstances;
     global List<ProcessInstanceHistory> ProcessSteps;
@@ -73,6 +73,8 @@ global class Campaign {
     global Datetime SystemModstamp;
     global List<Task> Tasks;
     global List<TopicAssignment> TopicAssignments;
+    global Id Topic__c;
+    global Topic__c Topic__r;
     global String Type;
     global List<EventChangeEvent> What;
 

@@ -28,7 +28,7 @@ global class User {
     global String City;
     global List<CombinedAttachment> CombinedAttachments;
     global String CommunityNickname;
-    global List<Order> CompanyAuthorizedBy;
+    global List<OrderChangeEvent> CompanyAuthorizedBy;
     global String CompanyName;
     global Contact Contact;
     global List<ContactCleanInfo> ContactCleanInfoReviewers;
@@ -38,7 +38,7 @@ global class User {
     global List<ContentVersion> ContentModifiedBy;
     global List<Contract> ContractsSigned;
     global String Country;
-    global List<EmailMessageRelation> CreatedBy;
+    global List<FileSearchActivity> CreatedBy;
     global Id CreatedById;
     global Datetime CreatedDate;
     global List<EntityDefinition> DataSteward;
@@ -60,7 +60,7 @@ global class User {
     global List<ContentNotification> EntityIdentifier;
     global List<EventRelation> EventRelations;
     global List<MyDomainDiscoverableLogin> ExecuteApexHandlerAs;
-    global List<SamlSsoConfig> ExecutionUser;
+    global List<AuthProvider> ExecutionUser;
     global String Extension;
     global List<ExternalDataUserAuth> ExternalDataUserAuths;
     global String Fax;
@@ -70,7 +70,7 @@ global class User {
     global List<UserFeed> Feeds;
     global String FirstName;
     global List<ContentVersion> FirstPublishLocation;
-    global List<EmailTemplate> Folder;
+    global List<Dashboard> Folder;
     global Boolean ForecastEnabled;
     global List<UserRole> ForecastUser;
     global String FullPhotoUrl;
@@ -79,7 +79,7 @@ global class User {
     global List<CollaborationGroupMember> GroupMemberships;
     global List<Site> GuestUser;
     global Id Id;
-    global List<OpportunityFeed> InsertedBy;
+    global List<EventFeed> InsertedBy;
     global List<InstalledMobileApp> InstalledMobileApps;
     global List<CollaborationInvitation> Inviter;
     global List<PlatformAction> InvokedByUser;
@@ -91,7 +91,7 @@ global class User {
     global List<ProcessInstanceNode> LastActor;
     global List<FeedComment> LastEditBy;
     global Datetime LastLoginDate;
-    global List<AuraDefinition> LastModifiedBy;
+    global List<CampaignMemberStatus> LastModifiedBy;
     global Id LastModifiedById;
     global Datetime LastModifiedDate;
     global String LastName;
@@ -105,11 +105,11 @@ global class User {
     global List<ApexLog> LogUser;
     global Double Longitude;
     global List<User> ManagedUsers;
-    global User Manager;
+    global List<UserChangeEvent> Manager;
     global Id ManagerId;
     global String MediumBannerPhotoUrl;
     global String MediumPhotoUrl;
-    global List<CaseTeamMember> Member;
+    global List<ContentWorkspaceMember> Member;
     global String MobilePhone;
     global String Name;
     global Datetime OfflinePdaTrialExpirationDate;
@@ -118,7 +118,7 @@ global class User {
     global String OutOfOfficeMessage;
     global List<OutgoingEmailRelation> OutgoingEmailRelations;
     global List<OwnedContentDocument> OwnedContentDocuments;
-    global List<TodayGoal> Owner;
+    global List<EventChangeEvent> Owner;
     global List<ChatterActivity> Parent;
     global List<PermissionSetAssignment> PermissionSetAssignments;
     global List<PermissionSetLicenseAssign> PermissionSetLicenseAssignments;
@@ -136,7 +136,7 @@ global class User {
     global List<EmailServicesAddress> RunAsUser;
     global List<Dashboard> RunningUser;
     global List<SDOC__SDoc__c> SDOC__S_Docs__r;
-    global List<UserProvAccount> SalesforceUser;
+    global List<UserProvAccountStaging> SalesforceUser;
     global String SenderEmail;
     global String SenderName;
     global List<SessionPermSetActivation> SessionPermSetActivations;
@@ -158,10 +158,10 @@ global class User {
     global String TimeZoneSidKey;
     global String Title;
     global List<UndecidedEventRelation> UndecidedEventRelations;
-    global List<UserAppInfo> User;
+    global List<LightningUsageByAppTypeMetrics> User;
     global List<UserEntityAccess> UserEntityAccessRights;
     global List<UserFieldAccess> UserFieldAccessRights;
-    global List<ContactShare> UserOrGroup;
+    global List<UserShare> UserOrGroup;
     global Boolean UserPermissionsCallCenterAutoLogin;
     global Boolean UserPermissionsInteractionUser;
     global Boolean UserPermissionsJigsawProspectingUser;
@@ -258,7 +258,7 @@ global class User {
     global List<Site> UserSites;
     global String UserType;
     global String Username;
-    global List<LoginIp> Users;
+    global List<ContentNotification> Users;
 
     global User () 
     {

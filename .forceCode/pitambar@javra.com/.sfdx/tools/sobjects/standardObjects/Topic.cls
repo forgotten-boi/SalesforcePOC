@@ -25,7 +25,7 @@ global class Topic {
     global Integer TalkingAbout;
     global List<KnowledgeableUser> Topic;
     global List<TopicAssignment> TopicAssignments;
-    global String Inspiration;
+
     global Topic () 
     {
     }

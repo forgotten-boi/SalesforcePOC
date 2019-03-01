@@ -20,6 +20,7 @@ global class TaskChangeEvent {
     global Id CreatedById;
     global Datetime CreatedDate;
     global String Description;
+    global String Description__c;
     global Id Id;
     global Boolean IsClosed;
     global Boolean IsRecurrence;
@@ -27,6 +28,7 @@ global class TaskChangeEvent {
     global User LastModifiedBy;
     global Id LastModifiedById;
     global Datetime LastModifiedDate;
+    global String Name__c;
     global User Owner;
     global Id OwnerId;
     global String Priority;

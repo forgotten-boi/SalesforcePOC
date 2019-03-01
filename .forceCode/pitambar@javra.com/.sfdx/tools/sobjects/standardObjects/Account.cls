@@ -40,7 +40,7 @@ global class Account {
     global List<Contact> Contacts;
     global List<ContentDocumentLink> ContentDocumentLinks;
     global List<Contract> Contracts;
-    global List<Lead> ConvertedAccount;
+    global List<LeadChangeEvent> ConvertedAccount;
     global User CreatedBy;
     global Id CreatedById;
     global Datetime CreatedDate;
@@ -52,7 +52,6 @@ global class Account {
     global List<DuplicateRecordItem> DuplicateRecordItems;
     global List<EmailMessage> Emails;
     global List<Event> Events;
-    global List<Event__c> Events__r;
     global String Fax;
     global List<EntitySubscription> FeedSubscriptionsForEntity;
     global List<AccountFeed> Feeds;

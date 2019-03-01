@@ -22,6 +22,7 @@ global class Event {
     global Datetime CreatedDate;
     global List<DeclinedEventRelation> DeclinedEventRelations;
     global String Description;
+    global String Description__c;
     global Integer DurationInMinutes;
     global Datetime EndDateTime;
     global List<EventRelationChangeEvent> Event;
@@ -47,14 +48,15 @@ global class Event {
     global Id LastModifiedById;
     global Datetime LastModifiedDate;
     global String Location;
+    global String Name__c;
     global SObject Owner;
     global Id OwnerId;
-    global List<FeedComment> Parent;
+    global List<FeedItem> Parent;
     global Datetime Recurrence2PatternStartDate;
     global String Recurrence2PatternText;
     global String Recurrence2PatternTimeZone;
     global String Recurrence2PatternVersion;
-    global List<EventChangeEvent> RecurrenceActivity;
+    global Event RecurrenceActivity;
     global Id RecurrenceActivityId;
     global Integer RecurrenceDayOfMonth;
     global Integer RecurrenceDayOfWeekMask;

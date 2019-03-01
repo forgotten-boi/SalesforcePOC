@@ -41,6 +41,7 @@ global class CampaignChangeEvent {
     global String ReplayId;
     global Date StartDate;
     global String Status;
+    global Topic__c Topic__c;
     global String Type;
 
     global CampaignChangeEvent () 

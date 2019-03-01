@@ -20,6 +20,7 @@ global class LookedUpFromActivity {
     global Id CreatedById;
     global Datetime CreatedDate;
     global String Description;
+    global String Description__c;
     global Integer DurationInMinutes;
     global Datetime EndDateTime;
     global Id Id;
@@ -34,6 +35,7 @@ global class LookedUpFromActivity {
     global Id LastModifiedById;
     global Datetime LastModifiedDate;
     global String Location;
+    global String Name__c;
     global SObject Owner;
     global Id OwnerId;
     global String Priority;

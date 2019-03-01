@@ -16,6 +16,7 @@ global class EventChangeEvent {
     global Id CreatedById;
     global Datetime CreatedDate;
     global String Description;
+    global String Description__c;
     global Integer DurationInMinutes;
     global String GroupEventType;
     global Id Id;
@@ -30,6 +31,7 @@ global class EventChangeEvent {
     global Id LastModifiedById;
     global Datetime LastModifiedDate;
     global String Location;
+    global String Name__c;
     global User Owner;
     global Id OwnerId;
     global String Recurrence2PatternText;

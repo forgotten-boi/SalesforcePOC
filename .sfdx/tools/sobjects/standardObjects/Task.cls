@@ -25,6 +25,7 @@ global class Task {
     global Id CreatedById;
     global Datetime CreatedDate;
     global String Description;
+    global String Description__c;
     global List<EntitySubscription> FeedSubscriptionsForEntity;
     global List<TaskFeed> Feeds;
     global List<ContentVersion> FirstPublishLocation;
@@ -38,9 +39,10 @@ global class Task {
     global User LastModifiedBy;
     global Id LastModifiedById;
     global Datetime LastModifiedDate;
+    global String Name__c;
     global User Owner;
     global Id OwnerId;
-    global List<FeedComment> Parent;
+    global List<FeedItem> Parent;
     global String Priority;
     global List<RecordActionHistory> RecordActionHistories;
     global List<RecordAction> RecordActions;
