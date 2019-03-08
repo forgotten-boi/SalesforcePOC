@@ -6,6 +6,6 @@
             "default": true
         }
     ],
-    "sfdcLoginUrl": "https://login.salesforce.com/",
+    "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "44.0"
 }

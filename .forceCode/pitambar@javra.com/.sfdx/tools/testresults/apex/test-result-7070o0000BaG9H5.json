@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Mar 8, 2019 4:47 PM",
+        "testExecutionTime": "900 ms",
+        "testTotalTime": "900 ms",
+        "commandTime": "29780 ms",
+        "hostname": "https://ap8.salesforce.com",
+        "orgId": "00D0o0000017fTLEAY",
+        "username": "pitambar@javra.com",
+        "testRunId": "7070o0000BaG9H5",
+        "userId": "0050o00000W63OuAAJ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M0o000006h716EAA"
+            },
+            "Id": "07M0o000006h716EAA",
+            "QueueItemId": "7090o000000XY4sAAG",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7070o0000BaG9H5AQK",
+            "MethodName": "myUnitTest",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0o00000EHRw4AAH"
+                },
+                "Id": "01p0o00000EHRw4AAH",
+                "Name": "UniqueAccountNameTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 900,
+            "FullName": "UniqueAccountNameTest.myUnitTest"
+        }
+    ]
+}

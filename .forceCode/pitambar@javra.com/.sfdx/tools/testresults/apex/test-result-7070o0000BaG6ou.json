@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Mar 8, 2019 3:01 PM",
+        "testExecutionTime": "210 ms",
+        "testTotalTime": "210 ms",
+        "commandTime": "28049 ms",
+        "hostname": "https://ap8.salesforce.com",
+        "orgId": "00D0o0000017fTLEAY",
+        "username": "pitambar@javra.com",
+        "testRunId": "7070o0000BaG6ou",
+        "userId": "0050o00000W63OuAAJ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M0o000006h6vwEAA"
+            },
+            "Id": "07M0o000006h6vwEAA",
+            "QueueItemId": "7090o000000XY3uAAG",
+            "StackTrace": "Class.SendIphoneToMemberTest.SendIphone: line 18, column 1",
+            "Message": "System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Topic: id value of incorrect type: 0TO0o000000VD42GAG: [Topic__c]",
+            "AsyncApexJobId": "7070o0000BaG6ouAQC",
+            "MethodName": "SendIphone",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0o00000EHOFRAA5"
+                },
+                "Id": "01p0o00000EHOFRAA5",
+                "Name": "SendIphoneToMemberTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 210,
+            "FullName": "SendIphoneToMemberTest.SendIphone"
+        }
+    ]
+}

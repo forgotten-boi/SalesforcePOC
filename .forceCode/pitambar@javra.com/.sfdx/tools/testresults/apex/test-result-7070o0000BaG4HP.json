@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Mar 8, 2019 12:42 PM",
+        "testExecutionTime": "92 ms",
+        "testTotalTime": "92 ms",
+        "commandTime": "26541 ms",
+        "hostname": "https://ap8.salesforce.com",
+        "orgId": "00D0o0000017fTLEAY",
+        "username": "pitambar@javra.com",
+        "testRunId": "7070o0000BaG4HP",
+        "userId": "0050o00000W63OuAAJ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M0o000006h6qNEAQ"
+            },
+            "Id": "07M0o000006h6qNEAQ",
+            "QueueItemId": "7090o000000XY2vAAG",
+            "StackTrace": "Class.SendIphoneToMemberTest.SendIphone: line 15, column 1",
+            "Message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [Topic__c]: [Topic__c]",
+            "AsyncApexJobId": "7070o0000BaG4HPAQ0",
+            "MethodName": "SendIphone",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0o00000EHOFRAA5"
+                },
+                "Id": "01p0o00000EHOFRAA5",
+                "Name": "SendIphoneToMemberTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 92,
+            "FullName": "SendIphoneToMemberTest.SendIphone"
+        }
+    ]
+}
