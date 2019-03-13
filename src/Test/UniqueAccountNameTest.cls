@@ -23,7 +23,7 @@
 public class UniqueAccountNameTest {
 
     @isTest
-    static void CheckUniqueAccount() {
+    static void myUnitTest() {
         // TO DO: implement unit test
         Account account = new Account();
         account.Name = 'NewTestUser';
