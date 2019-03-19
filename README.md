@@ -1,7 +1,7 @@
 # SalesforcePOC
 
 ```
-##For creating class from command line
+For creating class from command line
 `sfdx force:apex:class:create --classname Student`
 ```
 
